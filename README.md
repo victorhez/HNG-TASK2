@@ -45,7 +45,7 @@ It is mindblowing.
 
 
 
-**Set up the Timbu API:**
+## Set up the Timbu API:
 
 Create an account on Timbu Cloud.
 Retrieve your API key and add products to your account under Retail Business.
@@ -53,7 +53,7 @@ Update the lib/network/timbu_api.dart file with your API key.
 
 
 
-**App Information**
+## App Information
 Architecture: The app follows a clean  architecture with proper state management using Bloc.
 
 Dependencies: Only necessary third-party packages are used to keep the app lightweight and efficient.
