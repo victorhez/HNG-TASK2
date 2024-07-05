@@ -1,24 +1,102 @@
-# shop_app
+# HNG SHOPPING App
+<img src="screenshot6.png" width="300" height="600">
+This is a mobile application I developed for the Mobile Track Stage Two Task. The main objective is to create an app that integrates with the Timbu API to display product information.
+It is mindblowing.
 
-A new Flutter project.
+## Objectives
 
-## Getting Started
+- Create a Timbu account on [Timbu Cloud](https://timbu.cloud)
+- Get your API key (Note: it only views once)
+- Add product information to your Timbu account under Retail Business
+- Retrieve all product information using the API
+- Display the products on a screen in a list
 
-This project is a starting point for a Flutter application.
+## Requirements
 
-A few resources to get you started if this is your first Flutter project:
+- **Implementation of Timbu API**: The app must fetch and display data from the Timbu API.
+- **Proper Mobile Architecture**: The app should follow a clean architecture.
+- **Product Display**: Display at least 10 products with images from the Timbu API on a screen in a list.
+- **Relevant Product Information**: Show relevant information of the products added on Timbu in the list items.
+- **UI State Management**: Properly manage UI states and handle errors gracefully.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
 
-![Pixel True Mockup (1)](https://user-images.githubusercontent.com/79190719/226699132-6e4e9255-0163-4ff2-9540-dcf0b679e376.png)
-![Pixel True Mockup (3)](https://user-images.githubusercontent.com/79190719/226699200-ed902e04-91d9-4343-b71e-2a1595c0835a.png)
-![Pixel True Mockup (4)](https://user-images.githubusercontent.com/79190719/226699215-86b155b0-d585-4379-8d72-c91f566a7b6c.png)
-![Screenshot_1662835860](https://user-images.githubusercontent.com/79190719/189472699-efc2e7af-a354-4c53-a7c7-906e5ca00662.png)
-![Screenshot_1662835864](https://user-images.githubusercontent.com/79190719/189472701-3e8f665f-a154-48f4-bd8f-1c270f412a6c.png)
-![Screenshot_1662835870](https://user-images.githubusercontent.com/79190719/189472702-aa790dbf-6e49-40d7-83b4-c734f713fb5a.png)
-![Screenshot_1662835751](https://user-images.githubusercontent.com/79190719/189472703-eacf5b65-0774-477b-a4d3-d5cdf66deca3.png)
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/hng_ecommerce_app.git
+   cd hng_ecommerce_app
+   ```
+
+2. **Install dependencies**
+
+   ```b
+   flutter pub get
+   ```
+
+3. **Run the app**
+
+   Connect your device or start an emulator, then run:
+
+   ```
+   flutter run
+   ```
+
+
+
+**Set up the Timbu API:**
+
+Create an account on Timbu Cloud.
+Retrieve your API key and add products to your account under Retail Business.
+Update the lib/network/timbu_api.dart file with your API key.
+
+
+
+**App Information**
+Architecture: The app follows a clean  architecture with proper state management using Bloc.
+
+Dependencies: Only necessary third-party packages are used to keep the app lightweight and efficient.
+
+**App Screenshots**
+<img src="screenshot1.png" width="300" height="600">
+<img src="screenshot2.png" width="300" height="600">
+<img src="screenshot3.png" width="300" height="600">
+<img src="screenshot4.png" width="300" height="600">
+<img src="screenshot5.png" width="300" height="600">
+<img src="screenshot7.png" width="300" height="600">
+<img src="screenshot8.png" width="300" height="600">
+
+
+## Links
+Appetize.io Showcase: [View the app](https://appetize.io/app/b_oi2wfsnoacl5gtnan7akmmpbem?device=pixel7&osVersion=13.0)
+
+## APK Download
+
+Download the latest version of the app from the link below:
+
+[Download APK](apk.apk)
+
+
+## Documentation
+Timbu API Documentation [VIEW HERE](https://docs.timbu.cloud/api/)
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes
+4. Commit your changes: `git commit -m 'Add some feature'`
+5. Push to the branch: `git push origin feature/your-feature-name`
+6. Submit a pull request
+
+Please ensure your code adheres to the existing code style and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
