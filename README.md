@@ -1,6 +1,7 @@
 # HNG SHOPPING App
 <img src="screenshot6.png" width="300" height="600">
-This is a mobile application I developed for the Mobile Track Stage Two Task. The main objective is to create an app that integrates with the Timbu API to display product information.
+This is a mobile application I developed for the Mobile Track Stage Two Task. 
+The main objective is to create an app that integrates with the Timbu API to display product information.
 It is mindblowing.
 
 ## Objectives
